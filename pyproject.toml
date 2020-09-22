@@ -6,7 +6,7 @@ authors = ["Luiz Ribeiro <luizribeiro@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 black = "20.8b1"
