@@ -62,3 +62,19 @@ class TypedStructTest(TestCase):
 
         for s in (le_struct, be_struct):
             expect(s.char).to_equal(b"f")
+
+    def test_unpacking_with_offset(self) -> None:
+        offset = 10
+
+        le_packed_with_offset = bytes([0] * offset) + self.le_packed
+        be_packed_with_offset = bytes([0] * offset) + self.be_packed
+
+        le_struct = LETestStruct.unpack_from(le_packed_with_offset, offset)
+        be_struct = BETestStruct.unpack_from(be_packed_with_offset, offset)
+
+        for s in (le_struct, be_struct):
+            expect(s.char).to_equal(b"f")
+
+    def test_size(self) -> None:
+        expect(LETestStruct.get_size()).to_equal(45)
+        expect(BETestStruct.get_size()).to_equal(45)
