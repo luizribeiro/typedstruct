@@ -20,10 +20,6 @@ def struct_field(format: str, python_type: Type[_T]) -> _T:
 
 class StructType:
     @classmethod
-    def pad_byte(cls) -> None:
-        return struct_field("x", type(None))
-
-    @classmethod
     def char(cls) -> bytes:
         return struct_field("c", bytes)
 
@@ -62,14 +58,6 @@ class StructType:
     @classmethod
     def uint64(cls) -> int:
         return struct_field("Q", int)
-
-    @classmethod
-    def ssize_t(cls) -> int:
-        return struct_field("n", int)
-
-    @classmethod
-    def size_t(cls) -> int:
-        return struct_field("N", int)
 
     @classmethod
     def float32(cls) -> float:
