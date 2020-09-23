@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/luizribeiro/typedstruct.svg?branch=master)](https://travis-ci.com/luizribeiro/typedstruct)
 [![codecov](https://codecov.io/gh/luizribeiro/typedstruct/branch/master/graph/badge.svg)](https://codecov.io/gh/luizribeiro/typedstruct)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 A wrapper around the [`struct` built-in module](https://docs.python.org/3/library/struct.html)
 with support for [typing](https://www.python.org/dev/peps/pep-0484/), on top of
