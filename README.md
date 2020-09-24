@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/luizribeiro/typedstruct.svg?branch=master)](https://travis-ci.com/luizribeiro/typedstruct)
 [![codecov](https://codecov.io/gh/luizribeiro/typedstruct/branch/master/graph/badge.svg)](https://codecov.io/gh/luizribeiro/typedstruct)
+[![PyPI version](https://badge.fury.io/py/typedstruct.svg)](https://badge.fury.io/py/typedstruct)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/typedstruct)](https://pypi.org/project/typedstruct/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 A wrapper around the [`struct` built-in module](https://docs.python.org/3/library/struct.html)
