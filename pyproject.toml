@@ -4,6 +4,19 @@ version = "0.1.0"
 description = "A wrapper around the struct library with support for PEP 484 types."
 authors = ["Luiz Ribeiro <luizribeiro@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/luizribeiro/typedstruct"
+repository = "https://github.com/luizribeiro/typedstruct"
+keywords = ["typing", "structs"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"

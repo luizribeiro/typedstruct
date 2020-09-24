@@ -4,3 +4,4 @@
 .pyre/
 .venv/
 __pycache__/
+dist/
