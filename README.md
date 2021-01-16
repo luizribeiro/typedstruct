@@ -1,6 +1,6 @@
 # typedstruct
 
-[![Build Status](https://travis-ci.com/luizribeiro/typedstruct.svg?branch=master)](https://travis-ci.com/luizribeiro/typedstruct)
+![CI](https://github.com/luizribeiro/typedstruct/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/luizribeiro/typedstruct/branch/master/graph/badge.svg)](https://codecov.io/gh/luizribeiro/typedstruct)
 [![PyPI version](https://badge.fury.io/py/typedstruct.svg)](https://badge.fury.io/py/typedstruct)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/typedstruct)](https://pypi.org/project/typedstruct/)
