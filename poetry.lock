@@ -96,7 +96,7 @@ pyflakes = ">=2.3.0,<2.4.0"
 
 [[package]]
 name = "green"
-version = "3.2.5"
+version = "3.2.6"
 description = "Green is a clean, colorful, fast python test runner."
 category = "dev"
 optional = false
@@ -460,7 +460,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "1446c24b62b21705d0e8513b39ef877ec3a0cbe52da5ab32a542fe8c64780127"
+content-hash = "956b21a0fe123935e1c8e35ac336a2e7a0d83576d66fe9f9cb5da4f6364e86c2"
 
 [metadata.files]
 appdirs = [
@@ -542,7 +542,7 @@ flake8 = [
     {file = "flake8-3.9.1.tar.gz", hash = "sha256:1aa8990be1e689d96c745c5682b687ea49f2e05a443aff1f8251092b0014e378"},
 ]
 green = [
-    {file = "green-3.2.5.tar.gz", hash = "sha256:11d595d98afc3363d79e237141ad862c0574a62f92325d9e541ed1b1a54a72ae"},
+    {file = "green-3.2.6.tar.gz", hash = "sha256:e51d4ff6e6885942d944304fedc7440a8f87917aa09526beeecb31a0dae655b8"},
 ]
 importlib-metadata = [
     {file = "importlib_metadata-3.4.0-py3-none-any.whl", hash = "sha256:ace61d5fc652dc280e7b6b4ff732a9c2d40db2c0f92bc6cb74e07b73d53a1771"},
