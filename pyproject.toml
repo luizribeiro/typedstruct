@@ -23,7 +23,7 @@ classifiers = [
 python = "^3.7"
 
 [tool.poetry.dev-dependencies]
-black = "22.3.0"
+black = "23.12.1"
 flake8 = "3.9.1"
 green = "3.2.6"
 pyexpect = "1.0.21"
